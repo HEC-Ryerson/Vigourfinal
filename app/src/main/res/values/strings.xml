@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Vigour</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_screen">Login</string>
+    <string name="edit_message">Username</string>
+    <string name="button_send">Login</string>
+    <string name="title_activity_display_message">Bluetooth Menu</string>
+    <string name="password_submit">Password</string>
+    <string name="activate_bt">On</string>
+    <string name="deactivate_bt">Off</string>
+    <string name="activate_visibility">Visible</string>
+    <string name="view_list">List</string>
+    <string name="paired_list">Paired Devices</string>
+    <string name="available_list">Available Devices</string>
+    <string name="find_devices">Find</string>
+    <string name="device_one"></string>
+    <string name="dialogue_message">Finding new Devices</string>
+    <string name="paired_message">Enter Username and Password to get to the Bluetooth Menu</string>
+    <string name="title_activity_btsettings">Bluetooth Settings</string>
+    <string name="title_activity_btsearch">Search Your Vigour</string>
+</resources>

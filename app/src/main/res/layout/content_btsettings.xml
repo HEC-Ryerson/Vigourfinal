@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tinagross.vigourfinal.BTSettingsActivity"
+    tools:showIn="@layout/activity_btsettings">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="@string/activate_bt"
+        android:onClick="on" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="@string/deactivate_bt"
+        android:onClick="off" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="@string/activate_visibility"
+        android:onClick="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_list"
+        android:onClick="list" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="@string/find_devices"
+        android:onClick="findDevices" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:visibility="visible">
+
+    </ListView>
+
+</LinearLayout>
